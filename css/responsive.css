@@ -1,0 +1,130 @@
+/*add responsiveness to all images*/
+img {
+    width: 100%;
+}
+
+/*Mobile Devices*/
+@media screen and (max-width: 449px){
+
+    header, main, section {
+        width: 100%;
+    }
+
+    #maincontent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* nav h1 {
+        padding-top: 25px !important;
+    } */
+
+    #restaurant-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filter-options {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 60px !important;
+        margin-bottom: 10px;
+    }
+
+    .filter-options h2 {
+        padding: 5px 0 5px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .filter-options #neighborhoods-select {
+        width: 50%;
+        margin: 0;
+        box-shadow:0px 1px 1px #888888;
+    }
+
+    .filter-options #cuisines-select {
+        width: 50%;
+        margin: 0;
+        box-shadow:0px 1px 1px #888888;
+    }
+
+    #restaurants-list {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    #restaurants-list li {
+        width: 100% !important;
+        margin: 10 0 0 0 !important;
+        padding: 0 !important;
+    }
+
+    #restaurants-list li h1, #restaurants-list li p{
+        padding-left: 10px;
+    }
+
+    #restaurants-list li a {
+        width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+}
+
+/*Tablets */
+@media screen and (min-width: 450px) and (max-width: 770px){
+
+    #filter-options {
+        position: fixed !important;
+    }
+
+    .filter-options {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .filter-options h2 {
+        width: 20%;
+    }
+
+    #neighborhoods-select {
+        width: 30%;
+    }
+
+    #cuisines-select {
+        width: 30%;
+    }
+
+    #restaurants-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 5px 30px 5px !important;
+    }
+
+    #restaurants-list li {
+        padding: 10px 10px 20px 10px !important;
+        margin-top: 10px;
+        box-shadow:0px 1px 1px #888888;
+        width: 45% !important;
+    }
+
+    #restaurants-list li a {
+        width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+
+
+}
+
+/*Desktop*/
+@media screen and (min-width: 771px){
+
+}
