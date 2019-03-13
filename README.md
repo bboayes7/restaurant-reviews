@@ -1,10 +1,10 @@
-#Restaurant Reviews App
+# Restaurant Reviews App
 This application is used to view reviews of restaurants in New York. The app uses Mapbox to label restaurants in New York.
 The goal of the project is to make the app responsive on different viewport sizes, make sure it is accessible with tab navigation,
 using alt text for images, and using the correct aria attributes, and to see if the service worker is implemented properly by caching
 the app for offline use.
 
-#Instructions on how to run and resources
+# Instructions on how to run and resources
 
 1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
