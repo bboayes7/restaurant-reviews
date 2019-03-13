@@ -6,7 +6,6 @@ self.addEventListener('install', function(event){
                 '/',
                 '/index.html',
                 '/restaurant.html',
-                // 'js/dbhelper.js',
                 'js/main.js',
                 'js/restaurant_info.js',
                 'css/responsive_details.css',
