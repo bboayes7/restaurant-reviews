@@ -163,10 +163,11 @@ img {
         grid-column: 2;
         grid-row: 2;
         font-size: 16pt !important;
+        
     }
 
     #restaurant-hours {
-        margin-top: 50px;
+        margin-top: 65px;
         text-align: left;
         grid-column: 2;
         grid-row: 2 / 3;
@@ -223,6 +224,39 @@ img {
   
   /*Desktop*/
   @media screen and (min-width: 771px){
-  
+    footer {
+        width: 100% !important;
+    }
+
+    #map-container {
+        width: 45% !important;
+    }
+
+    #reviews-list li{
+        width: 94% !important;
+        margin: 10px 0 0 0 !important;
+        padding: 0 5px !important;
+        box-shadow:0px 1px 1px #888888;
+    }
+
+    #reviews-list li .reviewer-name {
+        margin-top: 5px;
+        font-size: 15pt !important;
+        text-align: left;
+    }
+
+    #reviews-list li .reviewer-date {
+        float: right;
+        opacity: .8;
+    }
+
+    #reviews-list li .reviewer-rating {
+        float: left;
+    }
+
+    #reviews-list li .reviewer-comments {
+        text-align: left;
+        margin-top: 50px;
+    }
   }
   

@@ -15,10 +15,6 @@ img {
         flex-wrap: wrap;
     }
 
-    /* nav h1 {
-        padding-top: 25px !important;
-    } */
-
     #restaurant-info {
         display: flex;
         flex-wrap: wrap;
@@ -126,5 +122,39 @@ img {
 
 /*Desktop*/
 @media screen and (min-width: 771px){
+
+    .filter-options {
+        display: inline-flex;
+        justify-content: center;
+
+    }
+
+    #restaurant-info {
+        width: 100%;
+    }
+
+    #restaurants-list {
+        width: 771px;
+        margin: auto !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #restaurants-list li {
+        margin-top: 5px;
+        padding: 10px 20px 10px 20px !important;
+        width: 40% !important;
+        text-align: center !important;
+    }
+
+    #restaurants-list li p, #restaurants-list li h1 {
+        text-align: left; 
+    }
+
+    #restaurants-list li a {
+        width: 50%;       
+    }
+
 
 }
